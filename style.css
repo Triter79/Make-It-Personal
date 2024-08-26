@@ -1,0 +1,37 @@
+body 
+{
+  background-color: rgb(230, 173, 213);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px
+}
+a {
+   color: red;
+   text-decoration: underline;
+}
+a:hover { 
+   color: black;
+   text-decoration: none;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px
+}
+p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  padding: 5px
+}
+footer {
+  position: fixed;
+  margin-right: 200px; /* Added 'px' unit */
+  text-align: center;
+  padding: 5px;
+}
