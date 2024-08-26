@@ -25,9 +25,30 @@
         <li>Hyenas – a cackle</li>
         <li>Owls – a parliament</li>
     </ol>
+    <button>Funny Animal Names</button>
     <img src="animals.jpg" alt="owl group">
     <div class="footer">
         <p>Author: Toni Riter</p>
     </div>
+    <button>Subscribe</button>
+    <footer>
+        Coded by Toni Riter
+        <a href="animals">
+          Animals
+        </a>
+      </footer>
+    <script>
+         function subscribe() {
+            let name = prompt("What is your name?");
+            prompt("What is your email address?");
+
+            alert(
+              `Thanks, ${name}! We'll be in touch! Meanwhile, Thanks for Looking!!`
+            );
+        }
+
+        let button = document.querySelector("button");
+        button.addEventListener("click", subscribe);
+    </script>
 </body>
 </html>
